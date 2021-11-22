@@ -49,12 +49,10 @@ pip install virtualenv
 ```
 create virtual environment using,
 ```
-
 virtualenv <your_env_name>
 ```
 and activate using,
 ```
-
 source <your_env_name>/bin/activate.
 ```
 

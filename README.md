@@ -31,7 +31,7 @@ Yahoo! Finance is a media property that is part of the Yahoo! network. It provid
 ```
 sudo apt install python:latest
 ```
- *check version using,
+ check version using,
  ```
  python3 --version
  ```

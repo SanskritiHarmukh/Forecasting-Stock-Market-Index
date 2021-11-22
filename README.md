@@ -14,7 +14,7 @@ We are working with Time Series Model, which analyzes a sequence of data points 
 # Streamlit: The fastest way to build and share data apps
 
 
-Streamlit :- Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. We can develop and deploy our web app using Streamlit very easily. In just a few minutes you can build and deploy powerful data apps. 
+Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. We can develop and deploy our web app using Streamlit very easily. In just a few minutes you can build and deploy powerful data apps. 
 
 
 
@@ -53,7 +53,14 @@ virtualenv <your_env_name>
 ```
 and activate using,
 ```
-source <your_env_name>/bin/activate.
+source <your_env_name>/bin/activate
 ```
+**4.** Further install all necessary modules using 
+```
+pip install streamlit fbprophet yfinance ploty
+```
+This will install all the required packages for the project such as, *numpy, pandas, matplotlib, etc.*
 
+**Note** - Make sure you install one of the major dependency of Prophet `pystan` explicitly. You can refer [doc](https://facebook.github.io/prophet/docs/installation.html) for the same and if you encounter an import error with prophet then degrade `holidays` version to `0.9.12` and clone the [repository](https://github.com/facebook/prophet).
 
+**5.** It's time to write some code. Refer the file attached in the repository for the same and understand the working of each line through the comments.

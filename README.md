@@ -64,3 +64,28 @@ This will install all the required packages for the project such as, *numpy, pan
 **Note** - Make sure you install one of the major dependency of Prophet `pystan` explicitly. You can refer [doc](https://facebook.github.io/prophet/docs/installation.html) for the same and if you encounter an import error with prophet then degrade `holidays` version to `0.9.12` and clone the [repository](https://github.com/facebook/prophet).
 
 **5.** It's time to write some code. Refer the file attached in the repository for the same and understand the working of each line through the comments.
+
+**6.** After writing the code, let's run it using the following command through the terminal
+```
+streamlit run home/username/Documents/<project_name.py>
+```
+The Streamlit app will now be visible in your browser at `localhost:8501`.
+
+**7.** Lastly you can deactivate the virtual environment.
+
+## Glimpse of the Web App
+![image1](https://user-images.githubusercontent.com/74777863/142919488-f88c0ae3-fede-4f95-8241-20d1787bc82b.png)
+
+![image2](https://user-images.githubusercontent.com/74777863/142919403-1c1c797b-4522-4ad8-97f2-6bfb466c2db7.png)
+
+![image](https://user-images.githubusercontent.com/74777863/142919551-03a6b314-7b56-46d4-a882-410822095ba2.png)
+
+
+Special Credits to [Patrick Loeber](https://github.com/python-engineer) 
+
+Collaborators and Team Members [Mansi Mishra](https://github.com/0904-mansi) | [Satyam Jain]() | [Archit Chawda]()
+
+
+Made with ♥️.
+
+

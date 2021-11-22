@@ -12,6 +12,7 @@
 ### *1. [Streamlit](https://streamlit.io/) :- Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. We can develop and deploy our web app using Streamlit very easily.*
 ### *2. [fbProphet](https://facebook.github.io/prophet/) :- Prophet is an open-source library published by Facebook(now Meta) that depends on decomposable models like Trend, Seasonality and Holidays.*
 ### *3. [yfinance](https://finance.yahoo.com/lookup) :- Yahoo Finance is used to collect the stock data, so that we can forecast the prices based on the historical data.*
+### *4. [plotly](https://plotly.com/) :- Plotly provides online graphing, analytics, and statistics tools for individuals and collaboration, as well as scientific graphing libraries for Python, R, MATLAB*
 
 ## Let's build the project together...
 
@@ -19,8 +20,10 @@
 
 ### *Following are the instructions for Linux distro Ubuntu, you can also use Windows or Mac for developing the project.*
 ### **Step 1.** Make sure you have python installed in your system already. If not, you can write `sudo apt install python3.8` in your terminal for installation and check version using `python3 --version`.
-### **Step 2.** Now, for installing and managing the software packages, we'll first install pip using `sudo apt install python3.8` and can check version by `pip3 --version` 
+### **Step 2.** Now, for installing and managing the software packages, we'll first install pip using `sudo apt install python3.8` and can check version by `pip3 --version`.
 ### **Step 3.** Next thing to do is create a virtual environment to separate your site packages used in this project from your rest of the projects, therefore to install use, `pip install virtualenv`, create using `virtualenv <your_env_name>` and activate using `source <your_env_name>/bin/activate`.
+### **Step 4.** Further install all necessary modules using `pip install streamlit fbprophet yfinance ploty`. This will install all the required packages for the project such as, *numpy, pandas, matplotlib, etc.* 
+**Note** - Make sure you install one of the major dependency of Prophet `pystan` explicitly. You can refer [doc](https://facebook.github.io/prophet/docs/installation.html) for the same.
 
  
 

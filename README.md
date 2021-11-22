@@ -29,13 +29,13 @@ Yahoo! Finance is a media property that is part of the Yahoo! network. It provid
 
 **1.** Make sure you have python installed in your system already. If not, you can install it using in following command your terminal for installation
 ```
-sudo apt install python:latest 
+sudo apt install python:latest
 ```
- **2.** check version using 
+ *check version using,
  ```
  python3 --version
  ```
-**3.**. Now, for installing and managing the software packages, we'll first install pip using 
+**2.**. Now, for installing and managing the software packages, we'll first install pip using 
 ```
 sudo apt install python3.8 
 ```
@@ -43,10 +43,15 @@ and can check version by
 ```
 pip3 --version
 ```
-**4.** Next thing to do is create a virtual environment to separate your site packages used in this project from your rest of the projects, therefore to install use,
+**3.** Next thing to do is create a virtual environment to separate your site packages used in this project from your rest of the projects, therefore to install use,
 ```
 pip install virtualenv
 ```
-create using virtualenv <your_env_name> and activate using source <your_env_name>/bin/activate.
+create virtual environment using,
+```virtualenv <your_env_name>
+```
+and activate using,
+```source <your_env_name>/bin/activate.
+```
 
 

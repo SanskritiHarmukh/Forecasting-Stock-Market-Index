@@ -1,4 +1,4 @@
-#Create a virtual env and install Streamlit, fbprophet and yfinance
+
 import streamlit as st
 from datetime import date
 

@@ -81,7 +81,7 @@ The Streamlit app will now be visible in your browser at `localhost:8501`.
 ![image](https://user-images.githubusercontent.com/74777863/142919551-03a6b314-7b56-46d4-a882-410822095ba2.png)
 
 
-Special Credits to [Patrick Loeber](https://github.com/python-engineer) 
+Special Credits to [Patrick Loeber](https://github.com/python-engineer) and [video](https://youtu.be/0E_31WqVzCY) for stock prediction.
 
 Collaborators and Team Members [Mansi Mishra](https://github.com/0904-mansi) | [Satyam Jain]() | [Archit Chawda]()
 

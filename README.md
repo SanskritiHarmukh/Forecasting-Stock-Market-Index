@@ -23,7 +23,9 @@
 ### **Step 2.** Now, for installing and managing the software packages, we'll first install pip using `sudo apt install python3.8` and can check version by `pip3 --version`.
 ### **Step 3.** Next thing to do is create a virtual environment to separate your site packages used in this project from your rest of the projects, therefore to install use, `pip install virtualenv`, create using `virtualenv <your_env_name>` and activate using `source <your_env_name>/bin/activate`.
 ### **Step 4.** Further install all necessary modules using `pip install streamlit fbprophet yfinance ploty`. This will install all the required packages for the project such as, *numpy, pandas, matplotlib, etc.* 
-**Note** - Make sure you install one of the major dependency of Prophet `pystan` explicitly. You can refer [doc](https://facebook.github.io/prophet/docs/installation.html) for the same.
+####**Note** - Make sure you install one of the major dependency of Prophet `pystan` explicitly. You can refer [doc](https://facebook.github.io/prophet/docs/installation.html) for the same and if you encounter an import error with prophet then degrade `holidays` version to `0.9.12` and clone the [repository](https://github.com/facebook/prophet).
+### **Step 5.** It's time to write some code. Refer the file attached in the repository for the same and understand the working of each line through the comments.
+
 
  
 

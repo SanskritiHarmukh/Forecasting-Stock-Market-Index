@@ -25,7 +25,7 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 # Yahoo Finance: To get free stock quotes 
 Yahoo! Finance is a media property that is part of the Yahoo! network. It provides financial news, data and commentary including stock quotes, press releases, financial reports, and original content. It also offers some online tools for personal finance management.
 
-## Python Installation 
+## Python Installation and proceedings
 
 **1.** Make sure you have python installed in your system already. If not, you can install it using in following command your terminal for installation
 ```

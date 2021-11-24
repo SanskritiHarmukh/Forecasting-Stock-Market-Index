@@ -1,4 +1,4 @@
-
+# importing libraries 
 import streamlit as st
 from datetime import date
 
@@ -7,28 +7,35 @@ from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 
+# defining a start date so that we can get a range of data from that date till today
 START = "2011-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
+# Providing a title to the project
 st.title('Predict over data')
 
+# yfinance has its abbreviations defined for the stocks, we are here picking few and using them
 stocks = ('GOOG', 'AAPL', 'MSFT', 'GME')
+# creating a select box using streamlit feature
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
+# setting a slider for the years of prediction and getting the details of prices of stock of each day
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
 
-
+# Definig a function to fetch the stock quotes
 @st.cache
 def load_data(ticker):
     data = yf.download(ticker, START, TODAY)
     data.reset_index(inplace=True)
     return data
 
-	
+# Loading data from yfinance for selected stocks using load_data()
+# Caching it so that if I chose AAPL first and get stock prices and then get the same for GOOG, and again switches to AAPL then data will not be fetched again rather will be saved due to earlier access	
 data_load_state = st.text('Loading data...')
 data = load_data(selected_stock)
 data_load_state.text('Loading data... done!')
+
 
 st.subheader('Raw data')
 st.write(data.tail())

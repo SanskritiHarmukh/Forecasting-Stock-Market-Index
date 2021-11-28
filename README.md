@@ -74,11 +74,10 @@ The Streamlit app will now be visible in your browser at `localhost:8501`.
 **7.** Lastly you can deactivate the virtual environment.
 
 ## Glimpse of the Web App
-![image1](https://user-images.githubusercontent.com/74777863/142919488-f88c0ae3-fede-4f95-8241-20d1787bc82b.png)
 
-![image2](https://user-images.githubusercontent.com/74777863/142919403-1c1c797b-4522-4ad8-97f2-6bfb466c2db7.png)
+Let's see the which source code line is responsible for which part of output in our web app.
 
-![image](https://user-images.githubusercontent.com/74777863/142919551-03a6b314-7b56-46d4-a882-410822095ba2.png)
+
 
 
 Special Credits to [Patrick Loeber](https://github.com/python-engineer) and [video](https://youtu.be/0E_31WqVzCY) for stock prediction.

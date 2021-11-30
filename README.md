@@ -7,7 +7,7 @@
 As we know Stock Market prices are highly unpredictable and volatile. This means that there are no consistent patterns in the data that allow one to model stock prices over time near-perfectly. So, as a stock buyer you can reasonably decide when to buy stocks and when to sell them to make a profit. Instead of considering it a stochatic or random process and that there is no hope for machine learning. We are trying to model the data, so that the predictions one make correlate with the actual behavior of the data.This is where time series modelling comes in. You need good machine learning models that can look at the history of a sequence of data and correctly predict what the future elements of the sequence are going to be.
 
 ## What does the project use?
-We are working with Time Series Model, which analyzes a sequence of data points collected over a time interval. In time series analysis, analysts record data points at consistent intervals over a set period of time rather than just recording the data points intermittently or randomly. Time series data can be used for forecasting—predicting future data based on historical data.
+We are working with Time Series Model, which analyzes a sequence of data points collected over a time interval. In time series analysis, analysts record data points at consistent intervals over a set period of time rather than just recording the data points intermittently or randomly. Time series data can be used for forecasting - predicting future data based on historical data.
 
 ## We are using 3 major open-source frameworks and tools in our project.
 
@@ -75,7 +75,7 @@ The Streamlit app will now be visible in your browser at `localhost:8501`.
 
 ## Glimpse of the Web App
 
-Let's see the which source code line is responsible for which part of output in our web app.
+Let's see which source code line is responsible for which part of output in our web app.
 
 **Input:**
 

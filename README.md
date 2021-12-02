@@ -148,7 +148,7 @@ Let's see which source code line is responsible for which part of output in our 
 
 
 
-Special Credits to [Patrick Loeber](https://github.com/python-engineer) and [video](https://youtu.be/0E_31WqVzCY) for stock prediction.
+Special Credits to [Patrick Loeber](https://github.com/python-engineer) and his [video](https://youtu.be/0E_31WqVzCY) for stock prediction.
 
 Collaborators and Team Members [Mansi Mishra](https://github.com/0904-mansi) | [Satyam Jain]() | [Archit Chawda]()
 

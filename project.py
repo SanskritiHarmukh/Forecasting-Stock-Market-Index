@@ -7,7 +7,7 @@ from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 
-# defining a start date so that we can get a range of data from that date till today
+# Defining a start date so that we can get a range of data from that date till today
 START = "2011-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
@@ -19,7 +19,7 @@ stocks = ('GOOG', 'AAPL', 'MSFT', 'GME')
 # creating a select box using streamlit feature
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
 
-# setting a slider for the years of prediction and getting the details of prices of stock of each day
+# Setting a slider for the years of prediction and getting the details of prices of stock of each day
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
 
@@ -40,7 +40,7 @@ data_load_state.text('Loading data... done!')
 st.subheader('Raw data')
 st.write(data.tail())
 
-# Plot raw data
+# Plotting the raw data
 def plot_raw_data():
 	fig = go.Figure()
 	fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
@@ -50,7 +50,7 @@ def plot_raw_data():
 	
 plot_raw_data()
 
-# Predict forecast with Prophet.
+# Predicting forecast with Prophet.
 df_train = data[['Date','Close']]
 df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
 
@@ -59,7 +59,7 @@ m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
 
-# Show and plot forecast
+# Showing and plotting the forecast 
 st.subheader('Forecast data')
 st.write(forecast.tail())
     

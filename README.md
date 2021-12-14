@@ -75,7 +75,7 @@ The Streamlit app will now be visible in your browser at `localhost:8501`.
 
 # Glimpse of the Web App
 
-##Let's see which source code line is responsible for which part of the output in our web app.
+## Let's see which source code line is responsible for which part of the output in our web app.
 
 **Input:**
 

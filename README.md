@@ -73,9 +73,9 @@ The Streamlit app will now be visible in your browser at `localhost:8501`.
 
 **7.** Lastly you can deactivate the virtual environment by giving command `deactivate` to your terminal.
 
-## Glimpse of the Web App
+# Glimpse of the Web App
 
-Let's see which source code line is responsible for which part of output in our web app.
+##Let's see which source code line is responsible for which part of the output in our web app.
 
 **Input:**
 

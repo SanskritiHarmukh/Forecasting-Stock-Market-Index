@@ -28,7 +28,7 @@ class ProcfileLexer(RegexLexer):
     name = 'Procfile'
     aliases = ['procfile']
     filenames = ['Procfile']
-
+    web: gunicorn dep:app
     tokens = {
         'root': [
             (r'^([a-z]+)(:)', bygroups(Name.Label, Punctuation)),

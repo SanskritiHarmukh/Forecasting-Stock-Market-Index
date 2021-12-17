@@ -1,6 +1,6 @@
 streamlit>=1.1.0
 Cython>=0.22
-cmdstanpy~=0.9.5
+cmdstanpy>=0.9.5
 pystan~=2.19.1.1
 numpy>=1.15.4
 pandas>=1.0.4
@@ -14,7 +14,6 @@ python-dateutil>=2.8.0
 tqdm>=4.36.1
 wheel>=0.37.0
 gunicorn>=20.1.0
-prophet>=1.0.1
 plotly>=5.3.1
 yfinance>=0.1.64
 fbprophet>=0.7.1

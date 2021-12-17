@@ -1,2 +1,2 @@
 
-web: gunicorn guarded-lake-13030:app
+web: gunicorn project:app

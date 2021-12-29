@@ -29,7 +29,7 @@ Yahoo! Finance is a media property that is part of the Yahoo! network. It provid
 
 **1.** Make sure you have python installed in your system already. If not, you can install it using in following command your terminal for installation
 ```
-sudo apt install python:latest
+sudo apt install python3.8
 ```
  check version using,
  ```
@@ -37,7 +37,7 @@ sudo apt install python:latest
  ```
 **2.**. Now, for installing and managing the software packages, we'll first install pip using 
 ```
-sudo apt install python3.8 
+sudo apt install python3-pip 
 ```
 and can check version by
 ```

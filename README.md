@@ -35,7 +35,7 @@ sudo apt install python3.8
  ```
  python3 --version
  ```
-**2.**. Now, for installing and managing the software packages, we'll first install pip using 
+**2.** Now, for installing and managing the software packages, we'll first install pip using 
 ```
 sudo apt install python3-pip 
 ```

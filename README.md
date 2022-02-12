@@ -69,7 +69,7 @@ This will install all the required packages for the project such as, *numpy, pan
 ```
 streamlit run home/username/Documents/<project_name.py>
 ```
-The Streamlit app will now be visible in your browser at `localhost:8501`.
+The Streamlit app will now be visible in your browser at `localhost:8501` .
 
 **7.** Lastly you can deactivate the virtual environment by giving command `deactivate` to your terminal.
 

@@ -14,13 +14,13 @@ We are working with Time Series Model, which analyzes a sequence of data points 
 # Streamlit: The fastest way to build and share data apps
 
 
-Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. We can develop and deploy our web app using Streamlit very easily. In just a few minutes you can build and deploy powerful data apps. 
+Streamlit is an open-source python framework for building web apps for Machine Learning and Data Science. It is the fastest way to build and share data apps. We can develop and deploy our web app using Streamlit very easily. In just a few minutes you can build and deploy powerful data apps. 
 
 
 
 # Prophet: Automatic Forecasting Procedure
 
-Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well.
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. It works best with time series that have strong seasonal effects and several seasons of historical data. Prophet is robust to missing data and shifts in the trend, and typically handles outliers well. It works best with time series that have strong seasonal effects
 
 # Yahoo Finance: To get free stock quotes 
 Yahoo! Finance is a media property that is part of the Yahoo! network. It provides financial news, data and commentary including stock quotes, press releases, financial reports, and original content. It also offers some online tools for personal finance management.

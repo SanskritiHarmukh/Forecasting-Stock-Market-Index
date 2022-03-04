@@ -61,7 +61,7 @@ m.fit(df_train)
 future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
 
-# Showing and plotting the forecast 
+# Showing and plotting the forecast with the help of plotly
 st.subheader('Forecast data')
 st.write(forecast.tail())
     
